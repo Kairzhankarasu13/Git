@@ -35,8 +35,21 @@
 # print("d =",d)
 
 
-a=int(input('a = '))
-b=int(input('b = '))
-(a - (a + 1) % 2, b - b % 2, -2)
-c=((a + 1) % 3)
-print(c)
+# a=int(input('a = '))
+# b=int(input('b = '))
+# (a - (a + 1) % 2, b - b % 2, -2)
+# c=((a + 1) % 3)
+# print(c)
+
+
+Q = [1, 'gg', 5, 6, 'gto', 7, 8]
+N=[]
+W=[]
+for i in Q:
+    if type(i) == int:
+        N.append(i)
+        
+    elif type(i) == str:
+        W.append(i)
+print(N)
+print(W)
