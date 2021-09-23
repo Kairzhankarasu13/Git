@@ -19,17 +19,24 @@
 #     print(a/c)
 
 
-print("input a")
-print()
-a = int(input())
-print()
-print("input b ")
-print()
-b = int(input())
-print()
-print("input c")
-print()
-c = int(input())
-print()
-d = a + b + c
-print("d =",d)
+# print("input a")
+# print()
+# a = int(input())
+# print()
+# print("input b ")
+# print()
+# b = int(input())
+# print()
+# print("input c")
+# print()
+# c = int(input())
+# print()
+# d = a + b + c
+# print("d =",d)
+
+
+a=int(input('a = '))
+b=int(input('b = '))
+(a - (a + 1) % 2, b - b % 2, -2)
+c=((a + 1) % 3)
+print(c)
